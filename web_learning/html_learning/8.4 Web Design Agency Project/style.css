@@ -10,77 +10,16 @@ body {
   flex: 1;
 }
 
-.card {
-  width: 45%;
-}
-
-.div {
-  display: block;
-}
-
-div.card img {
-  float: left;
-  margin-right: 50px;
-  height: 200px;
-}
-
-footer {
-  clear: both;
-}
-
-.left {
-  float: left;
-  flex: 2;
-}
-
-.right {
-  flex: 2;
-  float: right;
-}
-
 h1 {
   font-size: 5rem;
 }
 
 .creative {
-  color: midnightblue;
+  color: rgb(25, 25, 117)
 }
 
 footer {
   text-align: right;
   color: midnightblue;
-}
-
-@media (max-width: 680px) {
-  
-  .card {
-    width: 100%;
-    text-align: justify;
-  }
-
-  .card img {
-    width: 100%;
-    margin-bottom: 10px;
-    object-fit: cover;
-  }
-
-  .logo {
-    width: 100px;
-    display: inline;
-  }
-
-  h1 {
-    font-size: 3.5rem;
-    text-align: center;
-  }
-  
-  .right {
-    float: right;
-  }
-
-  .left {
-    float: left;;
-  }
-
 }
 
